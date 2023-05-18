@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Dog } from '../model/Dog';
+import { Dog } from 'src/app/model/Dog';
 
 @Component({
   selector: 'app-landing-page',

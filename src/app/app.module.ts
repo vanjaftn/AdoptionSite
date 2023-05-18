@@ -5,9 +5,7 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { LandingPageComponent } from './modules/landing-page/landing-page.component';
-import { DogProfileComponent } from './dog-profile/dog-profile.component';
-
-
+import { DogProfileComponent } from './modules/dog-profile/dog-profile.component';
 
 @NgModule({
   declarations: [
