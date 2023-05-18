@@ -4,9 +4,9 @@ import { LandingPageComponent } from './modules/landing-page/landing-page.compon
 import { DogProfileComponent } from './modules/dog-profile/dog-profile.component';
 
 const routes: Routes = [
-  { path: 'landing-page', component: LandingPageComponent },
-  { path: 'dog-profile', component: DogProfileComponent },
-  { path: '', redirectTo: '/landing-page', pathMatch: 'full' }
+  { path: 'AdoptionSite/adoptionsite/landing-page', component: LandingPageComponent },
+  { path: 'AdoptionSite/adoptionsite/dog-profile', component: DogProfileComponent },
+  { path: 'AdoptionSite/adoptionsite/', redirectTo: 'AdoptionSite/adoptionsite/landing-page', pathMatch: 'full' }
   
 ];
 
