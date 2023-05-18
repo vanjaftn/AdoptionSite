@@ -1,0 +1,24 @@
+<!-- Gallery -->
+<div style="background-color: #9A616D;">
+
+    <div class="row">
+        <div *ngFor="let img of imgs">
+            <div class="pictures">
+                <img
+                src={{img}}
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="error"
+                />                
+            </div>
+        </div>
+        <div *ngFor="let vid of vids">
+            <div class="pictures">
+                <video class="img-fluid" controls autoplay loop muted preload="auto">
+                    <source src={{vid}} type="video/mp4" />
+                  </video>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Gallery -->
+</div>
