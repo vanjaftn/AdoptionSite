@@ -42,6 +42,6 @@ export class LandingPageComponent implements OnInit {
 
   RedirectToDog(imgs : Array<String>){
     localStorage.setItem("imgs", JSON.stringify(imgs));
-    window.location.href = 'AdoptionSite/adoptionsite/dog-profile'
+    window.location.href = 'adoptionsite/dog-profile'
   }
 }

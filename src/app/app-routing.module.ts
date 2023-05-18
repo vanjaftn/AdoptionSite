@@ -4,10 +4,10 @@ import { LandingPageComponent } from './modules/landing-page/landing-page.compon
 import { DogProfileComponent } from './modules/dog-profile/dog-profile.component';
 
 const routes: Routes = [
-  { path: 'AdoptionSite/adoptionsite/landing-page', component: LandingPageComponent },
-  { path: 'AdoptionSite/adoptionsite/dog-profile', component: DogProfileComponent },
-  { path: 'AdoptionSite/adoptionsite/', redirectTo: 'AdoptionSite/adoptionsite/landing-page', pathMatch: 'full' },
-  { path: '', redirectTo: 'AdoptionSite/adoptionsite/landing-page', pathMatch: 'full' }
+  { path: 'adoptionsite/landing-page', component: LandingPageComponent },
+  { path: 'adoptionsite/dog-profile', component: DogProfileComponent },
+  { path: 'adoptionsite', redirectTo: 'adoptionsite/landing-page', pathMatch: 'full' },
+  { path: '', redirectTo: 'adoptionsite/landing-page', pathMatch: 'full' }
   
 ];
 
